@@ -134,6 +134,6 @@ Content-Type: application/json
 
 {
   "to": "anjaybetul2@gmail.com",
-  "subject": "Hello Bryan",
+  "subject": "Hello Bims",
   "text": "This is a test email sent using Nodemailer."
 }

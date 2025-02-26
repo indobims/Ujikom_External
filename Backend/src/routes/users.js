@@ -1,7 +1,7 @@
 import express from 'express';
 import {Login, Logout, Me,getUsers, Register,getUserById} from "../controller/userController.js";
 import { verifyUser,adminOnly,checkLoginStatus } from '../middleware/Auth.js';
-import { verify } from 'jsonwebtoken';
+import jwt from 'jsonwebtoken';
 import { checkAuth } from '../middleware/verify.js';
 const router = express.Router();
 // Rute yang dapat diakses tanpa otentikasi
