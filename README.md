@@ -114,7 +114,7 @@ Relasi: One-to-One
 ![Class Diagram](https://github.com/indobims/Ujikom_External/blob/main/img/ClassDiagram.png?raw=true)
 
 # ERD DIAGRAM
-![ERD Diagram](../img/ERD.png)
+![ERD Diagram](https://github.com/indobims/Ujikom_External/blob/main/img/ERD.png?raw=true)
 
 # USECASE DIAGRAM
 ![Use Case Diagram](../img/UseCase.png)
