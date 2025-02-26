@@ -111,10 +111,7 @@ Relasi: One-to-One
 ---
 
 # CLASS DIAGRAM
-![Class Diagram](../img/ClassDiagram.png)
-
-# RELASI TABLE
-![Relasi Table](../img/)
+![Class Diagram](https://github.com/indobims/Ujikom_External/blob/main/img/ClassDiagram.png?raw=true)
 
 # ERD DIAGRAM
 ![ERD Diagram](../img/ERD.png)
