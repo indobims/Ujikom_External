@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, Nav, Button } from "react-bootstrap";
 import { BrowserRouter as Router, Link, useHistory } from "react-router-dom";
-import logo from "../public/logo.png";
+import logo from "./transaksi/public/logo.png";
 import "../style/style.css";
 import axios from "axios";
 
@@ -51,7 +51,7 @@ function NavbarUser() {
         }
       >
         <Navbar variant="dark" expand="lg" className="navbar-container">
-          <h3>Zoepy </h3>
+          <h3>Bims </h3>
           <h3> Petshop</h3>
           <Nav className="navbar-nav-center">
             <Nav.Link as="a" href="/home/user">

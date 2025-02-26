@@ -1,45 +1,128 @@
-# RPL_Petshop_be_fe
-Ini adalah project rpl dengan menggunakan react js disisi frontend dan node js express di sisi backend
+# COPYRIGHT BY Biimmss
 
-![image](https://github.com/HaiPigGi/Petshop_E-Commerce-Payment-Stripe/assets/119752348/712a0356-9d1a-48f8-82a9-ed6c2db3423c)
+Nama : Arya Bima
+Kelas : XII PPLG
+Task : UJI KOMPETENSI PPLG
+
+<img src="../img/israruddinimg.jpg" width="300" style="border-radius: 50%;">
+
+# CASE PROJECT : Sistem Manajemen Petshop 🐾
+
+## 🐾 Deskripsi Proyek
+RPL Petshop adalah sebuah aplikasi e-commerce berbasis web yang dikembangkan untuk mempermudah penjualan dan pembelian produk-produk hewan peliharaan. Aplikasi ini menyediakan berbagai fitur seperti katalog produk, keranjang belanja, dan manajemen pesanan. Dengan menggunakan teknologi **React.js** di frontend dan **Node.js dengan Express.js** di backend, proyek ini dirancang untuk memberikan pengalaman pengguna yang responsif dan efisien.
+
+## 📥 Cara Menjalankan Proyek
+
+### 1️⃣ Clone Repository
+1. Buka **Git Bash** atau terminal.
+2. Jalankan perintah berikut:
+   ```sh
+   git clone https://github.com/indobims/ujikom_eksternal.git
+   ```
+3. Tekan **Enter** untuk mulai mengunduh repository.
+
+---
+
+### 2️⃣ Instalasi Dependency
+
+#### 🖥️ Backend
+1. Masuk ke direktori backend:
+   ```sh
+   cd backend
+   ```
+2. Instal semua dependency yang diperlukan:
+   ```sh
+   npm install
+   ```
+3. Pastikan Anda memiliki API Key Stripe. Anda bisa mengeditnya di `PaymentController`.
+4. Jalankan backend dengan perintah:
+   ```sh
+   npm run start
+   ```
+
+#### 🎨 Frontend
+1. Masuk ke direktori frontend:
+   ```sh
+   cd frontend
+   ```
+2. Instal semua dependency frontend:
+   ```sh
+   npm install
+   ```
+3. Jalankan aplikasi frontend:
+   ```sh
+   npm run petshop
+   ```
+
+---
+
+# DESKRIPSI CASE 🤳
+
+Dalam project ini terdapat beberapa entitas utama yang berhubungan satu sama lain:
+
+## Hubungan Antar Tabel:
+### 1. Users (Pengguna): Pengguna yang dapat melakukan transaksi dan membeli produk.
+### 2. Admin: Pengguna dengan hak akses untuk mengelola produk, pesanan, dan transaksi.
+### 3. Product (Produk): Daftar produk hewan peliharaan yang tersedia.
+### 4. Order (Pesanan): Menyimpan informasi tentang pesanan yang dilakukan pengguna.
+### 5. Transaksi (Pembayaran): Menyimpan informasi pembayaran dari pesanan pengguna.
+
+# RELASI ANTAR ENTITAS ✍
+
+## 1. Admin ke Produk (Mengelola Produk):
+Admin bertanggung jawab atas manajemen produk dalam sistem. <br>
+Relasi: One-to-Many
+
+## 2. Pengguna ke Pesanan (Melakukan Pemesanan):
+Setiap pengguna dapat melakukan satu atau lebih pesanan. <br>
+Relasi: One-to-Many
+
+## 3. Pesanan ke Produk (Memesan Produk):
+Setiap pesanan dapat berisi satu atau lebih produk. <br>
+Relasi: Many-to-Many
+
+## 4. Pesanan ke Transaksi (Pembayaran):
+Setiap pesanan memiliki satu transaksi pembayaran yang terkait. <br>
+Relasi: One-to-One
+
+
+## Dependecies / Teknologi yang digunakan 💻
+
+1. npm init -y
+   ```sh
+   npm init -y
+   ```
+
+2. express
+   ```sh
+   npm i express
+   ```
+
+3. mysql
+   ```sh
+   npm i mysql2
+   ```
+
+4. Axios
+   ```sh
+   npm i axios
+   ```
+
+---
+
+# CLASS DIAGRAM
+![Class Diagram](../img/ClassDiagram.png)
+
+# RELASI TABLE
+![Relasi Table](../img/)
+
+# ERD DIAGRAM
+![ERD Diagram](../img/ERD.png)
+
+# USECASE DIAGRAM
+![Use Case Diagram](../img/UseCase.png)
 
 
 
-HOW TO RUN THIS CODE ___
 
-First you can Clone this code with : 
-1.  open your Git Bash 
-2.  write the command "git clone https://github.com/HaiPigGi/Petshop_E-Commerce-Payment-Stripe.git"
-3.  And then Enter
-
-![image](https://github.com/HaiPigGi/Petshop_E-Commerce-Payment-Stripe/assets/119752348/47d330e7-2d4e-4a83-b861-8219e6f078be)
-
-
-Install ALL Dependency
-
-### Backend
-1. Go to Backend WIth cd backend
-2. install with command "npm install"
-3. And then run with "npm run start"
-4. For The API Key at the PaymentController you can also change it into your API key (I Use Stripe)
-
-### Frontend
-1. Go to Frontend WIth "cd frontend"
-2. install with command "npm install"
-4. And then run with "npm run petshop"
-
-
-
-![image](https://github.com/HaiPigGi/Petshop_E-Commerce-Payment-Stripe/assets/119752348/5f1d7345-8114-4d77-b74b-dcc81e283d7d)
-
-
-![image](https://github.com/HaiPigGi/Petshop_E-Commerce-Payment-Stripe/assets/119752348/e963da44-99dd-4186-93f5-4635e2c30ae0)
-
-
-![image](https://github.com/HaiPigGi/Petshop_E-Commerce-Payment-Stripe/assets/119752348/1002fb74-385c-4ebb-99af-3a245566de97)
-
-
-![image](https://github.com/HaiPigGi/Petshop_E-Commerce-Payment-Stripe/assets/119752348/82653bed-47c7-48fc-b928-27652bb52557)
-
-
-
+<img src="../img/logobims.png" width="300" style="border-radius: 50%;">

@@ -35,7 +35,7 @@ function Footer() {
         <a href="https://www.twitter.com"><FaTwitter /></a>
         <a href="https://www.instagram.com"><FaInstagram /></a>
       </div>
-      <p>&copy; {new Date().getFullYear()} Zoepy. All rights reserved.</p>
+      <p>&copy; {new Date().getFullYear()} Bims petshop. All rights reserved.</p>
     </footer>
   );
 }

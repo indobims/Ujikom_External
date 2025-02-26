@@ -41,7 +41,7 @@ export const processPayment = async (req, res) => {
     // Find the user by email
     const user = await Users.findOne({
       where: {
-        email: "Adminzoepy@gmail.com",
+        email: "Adminbims@gmail.com",
       },
     });
 

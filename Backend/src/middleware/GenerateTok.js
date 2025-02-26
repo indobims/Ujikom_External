@@ -7,7 +7,7 @@ const generateToken = (user) => {
     // Add any other data you want to include in the token payload
   };
 
-  const secretKey = 'your_secret_key'; // Replace with your own secret key
+  const secretKey = process.env.JWT_SECRET || 'rahasia'; // Menggunakan environment variable JWT_SECRET atau fallback ke 'rahasia'
   const options = {
     expiresIn: '60s', // Set the expiration time of the token
   };

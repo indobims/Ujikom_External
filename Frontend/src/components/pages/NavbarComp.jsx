@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, Nav, Button } from "react-bootstrap";
 import { BrowserRouter as Router } from "react-router-dom";
-import logo from "../public/logo.png";
+import logo from "./transaksi/public/logo.png";
 import "../style/style.css";
 
 function NavbarComp() {
@@ -33,7 +33,7 @@ function NavbarComp() {
         }
       >
         <Navbar variant="dark" expand="lg" className="navbar-container">
-          <h3>Zoepy </h3>
+          <h3>Bims </h3>
           <h3> Petshop</h3>
           <Nav className="navbar-nav-center">
             <Nav.Link as="a" href="/">
@@ -50,7 +50,7 @@ function NavbarComp() {
             </Nav.Link>
           </Nav>
           <Navbar.Brand className="navbar-logo">
-            <img src={logo} height="30" alt="Logo" />
+            <img src={logo} height="50" alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

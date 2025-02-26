@@ -25,7 +25,7 @@ function Contact() {
 
     try {
       const response = await axios.post("http://localhost:5000/sendMail", {
-        to: "anjaybetul2@gmail.com",
+        to: "indobims@gmail.com",
         subject: name,
         text: message,
       });
@@ -42,7 +42,7 @@ function Contact() {
 
   return (
     <div className="container contact">
-      <h1 className="contact-heading">Contact Us</h1>
+      <h1 className="contact-heading">Contact Us x</h1>
       {successMessage && (
         <Alert variant="success" className="contact-alert">
           {successMessage}

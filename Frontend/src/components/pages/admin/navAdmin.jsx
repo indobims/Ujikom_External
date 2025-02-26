@@ -51,7 +51,7 @@ const NavAdmin = () => {
             href="/"
             className="text-decoration-none"
             style={{ color: "inherit" }}>
-            Admin Zoepy
+            Admin Bims
           </a>
         </CDBSidebarHeader>
 
@@ -92,7 +92,7 @@ const NavAdmin = () => {
             style={{
               padding: "20px 5px",
             }}>
-            Zoepy Petshop
+            Bims Petshop
           </div>
         </CDBSidebarFooter>
       </CDBSidebar>
