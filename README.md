@@ -122,4 +122,7 @@ Relasi: One-to-One
 
 
 
-<img src="../img/logobims.png" width="300" style="border-radius: 50%;">
+<p align="center">
+  <img src="https://github.com/indobims/Ujikom_External/blob/main/img/logobims.png?raw=true" width="300" style="border-radius: 50%;">
+</p>
+
